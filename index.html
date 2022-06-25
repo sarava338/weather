@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather APP</title>
+
+  <!-- <link rel="stylesheet" href="css/test.css"> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="title">Astro & Weather of City</h1>
+    <h2 id="local"></h2>
+    <h3 id="today"></h3>
+  </header>
+  <article>
+    <section class="con">
+      <fieldset class="card">
+        <legend>Form</legend>
+        <form id="form">
+          <label for="city">City :</label>
+          <input type="text" id="city" placeholder="Enter City">
+          <button id="btn"value="submit"type="submit">Submit</button>
+        </form>
+      </fieldset>
+      <section class="astro">
+        <h2>Astro Details</h2>
+        <div class="container">
+          <div class="card">
+            <div id="moon"></div>
+            <div id="moon-text">
+              <p id="moon-rise">Moon Rise Time</p>
+              <p id="moon-set">Moon Set Time</p>
+            </div>
+          </div>
+          <div class="card flex-card">
+            <div id="sun"></div>
+            <div id="sun-text">
+              <p id="sun-rise">Sun Rise Time</p>
+              <p id="sun-set">Sun Set Time</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="weather">
+      <h2>Weather Details</h2>
+      <div class="container">
+        <div class="card">
+          <h3>Condition</h3>
+          <div class="flex-card" id="condition"></div>
+        </div>
+        <div class="card" id="temp">
+          <h3>Temperature</h3>
+          <div>
+            <span class="data" id="temp-c"></span> &deg;C | <span id="temp-f" class="data"></span> &deg;F
+            <p>Temperature is the measure of hotness or coldness expressed
+              in terms of any of several scales,
+              including Fahrenheit and Celsius.</p>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Humidity</h3>
+          <p id="humidity" class="data"></p>
+          <p>Humidity is the concentration of water vapour present in the air.
+            Water vapor, the gaseous state of water.</p>
+        </div>
+        <div class="card">
+          <h3>Cloud</h3>
+          <p id="cloud" class="data"></p>
+          <p>A cloud is a mass of water drops or ice
+            crystals suspended in the atmosphere.
+            Clouds form when water condenses in the sky.</p>
+        </div>
+        <div class="card">
+          <h3>Atmospheric Pressure</h3>
+          <span id="atm-mb" class="data"></span> mb | <span id="atm-in" class="data"></span> inHg
+          <p>Atmospheric pressure is caused by the gravitational
+            attraction of the planet on the
+            atmospheric gases above the surface.</p>
+        </div>
+        <footer>
+          <p>My Social Media Links</p>
+          <li><a href="https://www.linkedin.com/sarava.338">LinkedIn</a></li>
+          <li><a href="https://www.github.com/sarava338">GitHub</a></li>
+          <li><a href="https://www.sololearn.com/sarava.338">Solo Learn</a></li>
+          <li><a href="https://www.instagram.com/sarava.338">Instagram</a></li>
+        </footer>
+      </div>
+    </section>
+  </article>
+  <script src="script.js"></script>
+</body>
+
+</html>

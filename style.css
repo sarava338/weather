@@ -1,0 +1,103 @@
+* {
+   background-color: #121212;
+   color: aliceblue;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 4px;
+   padding: .1em;
+}
+
+h1,
+h2,
+.data {
+   text-align: center;
+   color: cyan;
+}
+#today{color: crimson;}
+
+.card {
+   border: 1px solid aliceblue;
+   border-radius: 2%;
+}
+
+form>* {
+   margin: 10px;
+}
+
+.container>* {
+   margin: 10px;
+}
+
+button,
+input {
+   padding: 3%;
+   width: 90%;
+   border: none;
+   border-radius: 1000000px;
+}
+
+button {
+   background-color: cyan;
+   color: #121212;
+}
+
+input {
+   color:#121212;
+   background-color: aliceblue;
+   border-bottom: 1px solid aliceblue;
+}
+
+a {
+   color: cyan;
+   text-decoration: none;
+}
+
+a:hover,
+button:hover {
+   cursor: pointer;
+}
+
+@media (max-width:425px) {
+   * {
+      text-align: center;
+      margin: 0px;
+   }
+
+   footer>* {
+      text-align: left;
+   }
+}
+
+@media (min-width:426px) and (max-width:768px) {
+
+   .con {
+      display: flex;
+   }
+
+   .weather .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   .card {
+      min-width: 200px;
+      max-width: 300px;
+   }
+}
+
+@media (min-width:769px) {
+
+   .con {
+      display: flex;
+   }
+
+   .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+   }
+
+   .card {
+      padding: 10px;
+      min-width: 200px;
+      max-width: 500px;
+   }
+}
