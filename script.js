@@ -13,7 +13,7 @@ const submitEvent = (e) => {
   if (!city.value) alert("Enter Input Details Correctly");
   else
     getData(
-      `http://api.weatherapi.com/v1/forecast.json?key=a50a2f9209c04431921163312220806&q=${city.value}&days=1&aqi=no&alert=no`
+      `https://api.weatherapi.com/v1/forecast.json?key=a50a2f9209c04431921163312220806&q=${city.value}&days=1&aqi=no&alert=no`
     );
   city.value = "";
 };
