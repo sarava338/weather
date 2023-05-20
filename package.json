@@ -1,0 +1,22 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "Astro and Weather data of current city you are in",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarava338/weather.git"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "sarava338",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarava338/weather/issues"
+  },
+  "homepage": "https://github.com/sarava338/weather#readme"
+}
