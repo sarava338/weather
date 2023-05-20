@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/sarava338/weather/issues"
   },
-  "homepage": "https://github.com/sarava338/weather#readme"
+  "homepage": "https://github.com/sarava338/weather#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
 }
