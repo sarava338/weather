@@ -6,21 +6,33 @@
    padding: .1em;
 }
 
-h1,
-h2,
-.data {
+h1, h2, h3, p.small,
+.data, .today {
    text-align: center;
    color: cyan;
 }
-#today{color: crimson;}
 
 .card {
    border: 1px solid aliceblue;
    border-radius: 2%;
 }
 
+.flex-card {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
 form>* {
    margin: 10px;
+}
+
+.astro {
+   margin: auto;
+}
+
+.astro > .container {
+   display: flex;
 }
 
 .container>* {
@@ -36,7 +48,7 @@ input {
 }
 
 button {
-   background-color: cyan;
+   background-color: crimson;
    color: #121212;
 }
 
@@ -60,6 +72,10 @@ button:hover {
    * {
       text-align: center;
       margin: 0px;
+   }
+
+   .astro > .container {
+      flex-direction: column;
    }
 
    footer>* {
